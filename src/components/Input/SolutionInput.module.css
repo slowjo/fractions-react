@@ -1,0 +1,39 @@
+.hiddeninput {
+    position: absolute;
+    opacity: 0;
+}
+
+.hiddeninput + div {
+    background-color: lightgrey;
+    text-align: center;
+    border: 2px solid lightgrey;
+}
+
+.hiddeninput:focus + div {
+    border-color: black;
+    background-color: white;
+}
+
+.submitButton {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border: 1px solid black;
+    background: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 200px;
+    transition: color 300ms, background-color 300ms;
+}
+
+.submitButton:hover {
+    background: black;
+    color: white;
+}
+
+.displayedInput {
+    width: 90px;
+    height: 70px;
+    margin: auto;
+    cursor: pointer;
+}
