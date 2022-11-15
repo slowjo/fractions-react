@@ -52,7 +52,7 @@ const SolutionInput = ({ solutionArray, makeNewFraction, displayedMessage, setDi
 
     return (
         <div style={{ fontSize: '50px', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-            <p style={{ fontSize: '20px' }}>{displayedMessage}</p>
+            <p style={{ fontSize: '20px', textAlign: 'center' }}>{displayedMessage}</p>
             <form onSubmit={onSubmit}>
                 <input 
                     className={styles.hiddeninput}
